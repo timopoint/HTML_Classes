@@ -1,5 +1,21 @@
-span{
-    color:red;
+body.b1 {
+    background-color: dimgray;
+}
+
+
+span.s1 {
+    color: red;
     font-weight: 300;
 
 }
+
+span.s2 {
+    color: blue;
+    font-weight: 300;
+
+}
+#m {
+    color:aquamarine;
+    font-family: serif;
+}
+
