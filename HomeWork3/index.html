@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Задание 1 — white-space и word-spacing</title>
+  <link rel="stylesheet" href="./CSS/task1.css">
+</head>
+<body>
+
+  <nav class="menu">
+    <a href="index.html" class="active">Задание 1</a>
+    <a href="task2.html">Задание 2</a>
+    <a href="task3.html">Задание 3</a>
+    <a href="task4.html">Задание 4</a>
+  </nav>
+
+  <p class="nowrap">
+    Это длинный текст для проверки свойства nowrap.    Он не будет переноситься на новую строку, даже если выйдет за границы блока.
+  </p>
+
+  <p class="pre">
+    Этот текст использует pre.
+        Он сохраняет    все пробелы
+    и переносы строк точно так же, как они написаны в HTML-коде.
+  </p>
+
+  <p class="pre-wrap">
+    Этот текст использует pre-wrap.
+        Пробелы сохраняются,    но длинные строки аккуратно переносятся внутри блока.
+  </p>
+
+  <p class="pre-line">
+    Этот текст использует pre-line.
+        Лишние пробелы    схлопываются в один, а строки аккуратно переносы строк сохраняются.
+  </p>
+
+</body>
+</html>
